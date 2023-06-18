@@ -14,12 +14,7 @@ const links = [
     {
         id: 3,
         title: "Application",
-        url: "/portofolio/Application"
-    },
-    {
-        id: 4,
-        title: "Application",
-        url: "/portofolio/Application"
+        url: "/portofolio/application"
     },
 
 ]
@@ -31,7 +26,7 @@ const Portofolio = () => {
             <div className='grid grid-cols-4 gap-16'>
                 {links.map((v, i, a) => {
                     return <Link key={v.id} href={v.url} className='bg-teal-500 h-96 flex justify-end items-end'>
-                        < section className='p-5 text-3xl font-bold text-white'>{v.title}</section>
+                        <section className='p-5 text-3xl font-bold text-white'>{v.title}</section>
                     </Link>
                 })}
             </div>
