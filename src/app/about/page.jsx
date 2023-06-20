@@ -12,15 +12,15 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-2 gap-10'>
-                <section className=' grid grid-rows-4 gap-5'>
+            <div className='grid lg:grid-cols-2 grid-cols-1 gap-10'>
+                <section className=' grid grid-col-1 gap-5'>
                     <h1 className='text-2xl'>Who we are ?</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis deleniti repellendus hic ut eum ipsam mollitia vel quis sequi necessitatibus. Cum nostrum illum quisquam veniam eius? Hic similique maiores tempore.</p>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis deleniti repellendus hic ut eum ipsam mollitia vel quis sequi necessitatibus. Cum nostrum illum quisquam veniam eius? Hic similique maiores tempore.</p>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis deleniti repellendus hic ut eum ipsam mollitia vel quis sequi necessitatibus. Cum nostrum illum quisquam veniam eius? Hic similique maiores tempore.</p>
                 </section>
 
-                <section className=' grid grid-rows-4 gap-5'>
+                <section className=' grid grid-cols-1 gap-5'>
                     <h1 className='text-2xl'>What we do ?</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis deleniti repellendus hic ut eum ipsam mollitia vel quis sequi necessitatibus. Cum nostrum illum quisquam veniam eius? Hic similique maiores tempore.</p>
                     <ul>

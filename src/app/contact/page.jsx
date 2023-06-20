@@ -14,7 +14,7 @@ const Contact = () => {
                     {/* <Button text="weee anjeng keren bgt odi"></Button> */}
                     <button className='px-6 py-5 bg-black text-white rounded-md hover:bg-cyan-500 transition-all ease-in-out duration-300'>Send</button>
                 </form>
-                <section className='bg-teal-500 '></section>
+                <section className='bg-teal-500 lg:flex hidden '></section>
             </div>
 
         </main>
