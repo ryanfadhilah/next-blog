@@ -5,7 +5,7 @@ const Contact = () => {
         <main className='flex flex-col items-center gap-20'>
             <h1 className='text-3xl font-semibold'>Let`s Keep in Touch</h1>
 
-            <div className='grid grid-cols-2 gap-20  w-5/6'>
+            <div className='grid lg:grid-cols-2  grid-cols-1 gap-20 w-5/6 '>
                 <form className='grid grid-col-1 gap-5'>
                     <input className=' drop-shadow-md rounded-md px-6 py-5 ' type="text" placeholder='name' />
                     <input className=' drop-shadow-md rounded-md px-6 py-5' type="email" placeholder='email' />

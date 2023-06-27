@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
 export default function Home() {
+
   return (
     <>
       <main className="lg:flex-row lg:justify-between flex flex-col-reverse">
