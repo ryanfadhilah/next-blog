@@ -3,18 +3,18 @@ import Link from 'next/link'
 const links = [
     {
         id: 1,
-        title: "Ilustration",
-        url: "/portofolio/ilustration"
+        title: "Ilustrations",
+        url: "/portofolio/illustrations"
     },
     {
         id: 2,
-        title: "Website",
-        url: "/portofolio/website"
+        title: "Websites",
+        url: "/portofolio/websites"
     },
     {
         id: 3,
-        title: "Application",
-        url: "/portofolio/application"
+        title: "Applications",
+        url: "/portofolio/applications"
     },
 
 ]
